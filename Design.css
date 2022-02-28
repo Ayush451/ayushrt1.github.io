@@ -163,7 +163,7 @@ button:hover{
 /* Contact Page form design*/
 
 #Contact_body, .about_body{      /* Contact Page & about body */
-    height: 100vh;
+    height: 130vh;
     background-color:rgba(95, 158,160,1);
     font-family:"Staatliches", sans-serif;
     font-weight: 500;
@@ -181,6 +181,23 @@ button:hover{
     border-radius: 10px;
     box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
     
+}
+/*container height gets bigger when screen get smaller*/
+@media(max-width:790px){
+    .container{
+        background-color:white;
+        width:95%;
+        min-width: 420px;
+        padding: 20px 50px;
+        transform: translate(-50%, -35%);
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        bottom: -30%;
+        border-radius: 10px;
+        box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+        height:100%;
+    }
 }
 
 .cheading{
