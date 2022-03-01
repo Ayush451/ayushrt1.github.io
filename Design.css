@@ -285,8 +285,9 @@ img {
   .Project_container1{
       background-color: rgba(95, 158,160,1);
       width: 100%;
-      height:200%;
+      height:auto;
       padding-top: 2.5%;
+      padding-bottom:2.5%;
       margin-bottom:2.5%;
   }
 
@@ -342,8 +343,9 @@ img {
 
 /* About page CSS*/
 .Container_Skills{
+    
     width: 100%;
-    height:110%;
+    height:auto;
     background-color: rgb(240, 240, 240);
     text-align:center;
     border-radius: 10px;
