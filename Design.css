@@ -314,6 +314,15 @@ img {
     justify-content: space-between;
     
 }
+.ComingSoon{
+    width: 95%;
+    margin:auto;
+    padding: 20px 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
 
 
 .text{
