@@ -50,35 +50,36 @@
         <div class="container">
             <h1  class="cheading"> GET IN TOUCH</h1>
             <p>Want to Contact Me? Drop me a Message</p>
-            <form>
+            <form action="https://formspree.io/f/mvolrakp"
+            method="POST">
                 <div class = "row">
                     <div class="column">
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your name here">
+                        <input type="text" id="name" placeholder="Your name here" name="name" required>
                     </div>
 
                     <div class="column">
                         <label for="email">Email</label>
-                        <input type="text" id="email" placeholder="Your email here">
+                        <input type="text" id="email" placeholder="Your email here" name="email" required>
                     </div>
                 </div>
 
                 <div class = "row">
                     <div class="column">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" placeholder="Your subject here">
+                        <input type="text" id="subject" placeholder="Your subject here" name="subject">
                     </div>
 
                     <div class="column">
                         <label for="contact">Contact Number</label>
-                        <input type="text" id="contact" placeholder="Your phone number here">
+                        <input type="text" id="contact" placeholder="Your phone number here" name="Contactnumber">
                     </div>
                 </div>
 
                 <div class = "row">
                     <div class="column">
                         <label for="message">Message</label>
-                        <textarea type="text" id="message" placeholder="Your message here" row="3"></textarea>
+                        <textarea type="text" id="message" placeholder="Your message here" row="3" required name="message"></textarea>
                     </div>
 
                 </div>
